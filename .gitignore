@@ -1,0 +1,12 @@
+# Python virtual environment
+env/
+
+# Pycache files
+__pycache__/
+*.pyc
+.env
+# Keylogger output
+key_log.txt
+
+# Local secrets runner
+run_keylogger-private.ps1
