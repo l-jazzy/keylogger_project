@@ -2,7 +2,7 @@
 # Fill these in with your own credentials
 
 $env:EMAIL_SENDER = "your_email@gmail.com"
-$env:EMAIL_PASSWORD = "your_app_password"
+$env:APP_PASSWORD = "your_app_password"
 $env:DISCORD_WEBHOOK = "https://discord.com/api/webhooks/..."
 
 # Activate virtual environment
