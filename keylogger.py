@@ -119,11 +119,8 @@ def on_press(key):
             ctrl_pressed = True
             return
 
-        try:
-            char = key.char
-        except AttributeError:
-            char = None
-
+        # Cheks if key has 'char' attribute
+        char = key.char if hasattr(key, 'char') else None
         keys.append(key)
 
 
